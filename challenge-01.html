@@ -33,39 +33,24 @@
         text-decoration: none;
         color: black;
       }
+
       .bg-hero {
         background-color: #f1f3ff;
       }
 
-      .carousel p {
-        font-size: 9.956px
-      }
-
-
       div.testimoni {
-        width: 600px;
-        height: 192px;
-        overflow: hidden;
-        display: block;
+        height:35vh;
       }
 
-      @media(max-width:1000px){
-        /* div.testimoni {
-          width: 800px;
-          height: 210px;
-          overflow: hidden;
-          display: block;
-        } */
+      @media(max-width:375px){
+        div.testimoni {
+          /* width: auto; */
+          height: 70vh;
+          /* display: block; */
+        }
       }
 
       @media(max-width:768px){
-        /* div.testimoni {
-          width: 800px;
-          height: 260px;
-          overflow: hidden;
-          display: block;
-        } */
-
         .navbar-collapse {
         position: absolute;
         top: 54px;
@@ -93,9 +78,6 @@
         transition: right 0.3s ease-in;
         }
       }
-
-      @media(max-width:510px){}
-      @media(max-width:320px){}
     </style>
   </head>
   <body>
@@ -204,7 +186,7 @@
       <div class="container">
         <h3 class="fw-bold text-black text-center text-sm-start ps-3">Why Us?</h3>
         <p class="text-center text-sm-start p-3">Mengapa harus pilih Binar Car Rental?</p>
-        <div class="row mx-auto">
+        <div class="row mx-5 mx-sm-auto">
           <div class="col">
             <div class="card mb-3" style="width: 16rem; height: 11rem; " >
               <div class="card-body">
@@ -268,26 +250,28 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade w-50 m-auto">
           <div class="carousel-inner">
             <div class="carousel-item active bg-hero">
-              <div class="testimoni"></div>
-              <div class="carousel-caption text-start">
-                <div class="row">
-                  <div class="col-sm-3">
-                    <img src="/image/cowok.png" class="w-75 mt-4" alt="">
-                  </div>
-                  <div class="col-sm-9 pt-3">
-                    <img src="/image/Rate.svg" class="flex-start py-2" alt="">
-                    <p class="d-flex text-start text-black fw-medium">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</h6>
-                    <p class="text-black fw-semibold">John Dee 32, Bromo</p>
+              <div class="testimoni">
+                <div class="carousel-caption text-start">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <img src="/image/cowok.png" class="w-75 mt-sm-5" alt="">
+                    </div>
+                    <div class="col-sm-9 pt-3">
+                      <img src="/image/Rate.svg" class="flex-start py-2" alt="">
+                      <p class="d-flex text-start text-black fw-medium">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</h6>
+                      <p class="text-black fw-semibold">John Dee 32, Bromo</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div></div>
             <div class="carousel-item bg-hero">
               <div class="testimoni"></div>
               <div class="carousel-caption text-start">
                 <div class="row">
                   <div class="col-sm-3">
-                    <img src="/image/cowok2.png" class="w-75 mt-4" alt="">
+                    <img src="/image/cowok2.png" class="w-75 mt-sm-5" alt="">
                   </div>
                   <div class="col-sm-9 pt-3">
                     <img src="/image/Rate.svg" class="flex-start py-2" alt="">
@@ -302,7 +286,7 @@
               <div class="carousel-caption text-start">
                 <div class="row">
                   <div class="col-sm-3">
-                    <img src="/image/cowok3.png" class="w-75 mt-4" alt="">
+                    <img src="/image/cowok3.png" class="w-75 mt-sm-5" alt="">
                   </div>
                   <div class="col-sm-9 pt-3">
                     <img src="/image/Rate.svg" class="flex-start py-2" alt="">
@@ -343,11 +327,11 @@
     <section class="py-5">
       <div class="container">
         <div class="row">
-          <div class="col text-center text-sm-start">
+          <div class="col-12 col-sm-6 text-center text-sm-start">
             <h3 class="fw-bold">Frequently Asked Question</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           </div>
-          <div class="col mx-auto">
+          <div class="col-12 col-sm-6 mx-auto">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item my-3">
                 <h2 class="accordion-header border">
