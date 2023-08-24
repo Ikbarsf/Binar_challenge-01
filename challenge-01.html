@@ -41,19 +41,6 @@
         font-size: 9.956px
       }
 
-      .carousel-control-prev {
-        color: black !important;
-      }
-
-      /* .img-header{
-        position: absolute;
-        right: 0;
-      }
-
-      .home {
-        padding-top: 10vh;
-        height: 32rem;
-      } */
 
       div.testimoni {
         width: 600px;
@@ -63,21 +50,21 @@
       }
 
       @media(max-width:1000px){
-        div.testimoni {
+        /* div.testimoni {
           width: 800px;
           height: 210px;
           overflow: hidden;
           display: block;
-        }
+        } */
       }
 
       @media(max-width:768px){
-        div.testimoni {
+        /* div.testimoni {
           width: 800px;
           height: 260px;
           overflow: hidden;
           display: block;
-        }
+        } */
 
         .navbar-collapse {
         position: absolute;
@@ -112,6 +99,7 @@
     </style>
   </head>
   <body>
+
     <!-- Navbar Section Start -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3">
       <div class="container">
@@ -146,12 +134,12 @@
 
 
     <!-- Hero Section Start -->
-    <section id="home" class="home bg-hero">
+    <section id="home" class="bg-hero pt-5">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6 align-self-center py-5">
-            <h1 class="fw-bold text-black">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
-            <p>
+            <h1 class="fw-bold text-black pb-3">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+            <p class="fw-medium">
               Selamat datang di Binar Car Rental. Kami menyediakan mobil
               kualitas terbaik dengan harga terjangkau. Selalu siap melayani
               kebutuhanmu untuk sewa mobil selama 24 jam.
@@ -160,8 +148,8 @@
               Mulai Sewa Mobil
             </button>
           </div>
-          <div class="col-12 col-sm-6 img-header">
-            <img src="/image/carmobil.png" class="img-fluid" alt="" />
+          <div class="col-12 col-sm-6">
+            <img src="/image/carmobil.png" class="img-fluid mx-auto ps-5" alt="" />
           </div>
         </div>
       </div>
@@ -214,14 +202,14 @@
     <!-- Why Us Section Start -->
     <section id="why-us" class="py-5">
       <div class="container">
-        <h3 class="fw-bold text-black text-center text-sm-start">Why Us?</h3>
-        <p class="text-center text-sm-start">Mengapa harus pilih Binar Car Rental?</p>
-        <div class="row">
+        <h3 class="fw-bold text-black text-center text-sm-start ps-3">Why Us?</h3>
+        <p class="text-center text-sm-start p-3">Mengapa harus pilih Binar Car Rental?</p>
+        <div class="row mx-auto">
           <div class="col">
-            <div class="card mb-3" style="width: 18rem">
+            <div class="card mb-3" style="width: 16rem; height: 11rem; " >
               <div class="card-body">
                 <img src="/image/icon_complete.svg" class="pb-3" alt="" />
-                <h5 class="card-title">Mobil Lengkap</h5>
+                <h5 class="card-title fw-semibold">Mobil Lengkap</h5>
                 <p class="card-text">
                   Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
                   terawat
@@ -230,10 +218,10 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-3" style="width: 18rem">
+            <div class="card mb-3" style="width: 16rem; height: 11rem; ">
               <div class="card-body">
                 <img src="/image/icon_price.svg" class="pb-3" alt="" />
-                <h5 class="card-title">Harga Murah</h5>
+                <h5 class="card-title fw-semibold">Harga Murah</h5>
                 <p class="card-text">
                   Harga murah dan bersaing, bisa bandingkan harga kami dengan
                   rental mobil lain
@@ -242,10 +230,10 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-3" style="width: 18rem">
+            <div class="card mb-3" style="width: 16rem; height: 11rem; ">
               <div class="card-body">
                 <img src="/image/icon_24hrs.svg" class="pb-3" alt="" />
-                <h5 class="card-title">Layanan 24 Jam</h5>
+                <h5 class="card-title fw-semibold">Layanan 24 Jam</h5>
                 <p class="card-text">
                   Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
                   tersedia di akhir minggu
@@ -254,10 +242,10 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-3" style="width: 18rem">
+            <div class="card mb-3" style="width: 16rem; height: 11rem; ">
               <div class="card-body">
                 <img src="/image/icon_professional.svg" class="pb-3" alt="" />
-                <h5 class="card-title">Sopir Profesional</h5>
+                <h5 class="card-title fw-semibold">Sopir Profesional</h5>
                 <p class="card-text">
                   Sopir yang profesional, berpengalaman, jujur, ramah dan selalu
                   tepat waktu
@@ -272,10 +260,10 @@
 
     <!-- Testimonial Section Start -->
     <section id="testimonial" class="py-5">
-      <div class="container-fluid">
+      <div class="container">
         <div class="text-center mb-5">
-          <h3 class="">Testimonial</h3>
-          <h6>Berbagai review positif dari para pelanggan kami</h6>
+          <h3 class="fw-bold">Testimonial</h3>
+          <h6 class="fw-medium">Berbagai review positif dari para pelanggan kami</h6>
         </div>
         <div id="carouselExampleFade" class="carousel slide carousel-fade w-50 m-auto">
           <div class="carousel-inner">
@@ -336,6 +324,7 @@
     </section>
     <!-- Testimonial Section End -->
 
+
     <!-- Banner Section Start -->
     <section class="py-5">
       <div class="container">
@@ -354,11 +343,11 @@
     <section class="py-5">
       <div class="container">
         <div class="row">
-          <div class="col">
-            <h3>Frequently Asked Question</h3>
+          <div class="col text-center text-sm-start">
+            <h3 class="fw-bold">Frequently Asked Question</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           </div>
-          <div class="col">
+          <div class="col mx-auto">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item my-3">
                 <h2 class="accordion-header border">
@@ -431,22 +420,22 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-sm-4">
             <p>Jalan Suroyo No. 161 Mayangan Kota <br> Probolonggo 672000</p>
             <p>binarcarrental@gmail.com</p>
             <p>081-233-334-808</p>
           </div>
-          <div class="col-2 fw-bold">
+          <div class="col-12 col-sm-2 fw-bold">
             <p>Our service</p>
             <p>Why Us</p>
             <p>Testimonial</p>
             <p>FAQ</p>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-sm-3">
             <p>Connect with us</p>
             <img src="/image/list sosmed item.svg" alt="">
           </div>
-          <div class="col-3">
+          <div class="col-12 col-sm-3 mt-3 mt-sm-0 ps-sm-5">
             <p>Copyright Binar 2022</p>
             <div class="bg-blue" style="width: 80px; height: 30px"></div>
           </div>
